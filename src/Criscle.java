@@ -26,8 +26,7 @@ public class Criscle {
         return area;
     }
     public String display(){
-        return this.radius;
-        return this.color;
+        return "color: " + this.color + ", radius: " + this.radius;
     }
 
 }
